@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sam2017_ModAchievementsEx", "launcher\Sam2017_ModAchievementsEx.vcxproj", "{EB2796C0-6682-402B-BC5C-8C17CDC95E58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09C45355-D6AD-40FF-83C5-A3BBF385F96D} = {09C45355-D6AD-40FF-83C5-A3BBF385F96D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModAchievementsEx", "dll\ModAchievementsEx.vcxproj", "{09C45355-D6AD-40FF-83C5-A3BBF385F96D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Launcher", "Launcher", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB2796C0-6682-402B-BC5C-8C17CDC95E58}.Debug|x64.ActiveCfg = Debug|x64
+		{EB2796C0-6682-402B-BC5C-8C17CDC95E58}.Debug|x64.Build.0 = Debug|x64
+		{EB2796C0-6682-402B-BC5C-8C17CDC95E58}.Release|x64.ActiveCfg = Release|x64
+		{EB2796C0-6682-402B-BC5C-8C17CDC95E58}.Release|x64.Build.0 = Release|x64
+		{8F3D4E6A-C1B7-4E69-B63D-4E055898767A}.Debug|x64.ActiveCfg = Debug|x64
+		{8F3D4E6A-C1B7-4E69-B63D-4E055898767A}.Debug|x64.Build.0 = Debug|x64
+		{8F3D4E6A-C1B7-4E69-B63D-4E055898767A}.Release|x64.ActiveCfg = Release|x64
+		{8F3D4E6A-C1B7-4E69-B63D-4E055898767A}.Release|x64.Build.0 = Release|x64
+		{09C45355-D6AD-40FF-83C5-A3BBF385F96D}.Debug|x64.ActiveCfg = Debug|x64
+		{09C45355-D6AD-40FF-83C5-A3BBF385F96D}.Debug|x64.Build.0 = Debug|x64
+		{09C45355-D6AD-40FF-83C5-A3BBF385F96D}.Release|x64.ActiveCfg = Release|x64
+		{09C45355-D6AD-40FF-83C5-A3BBF385F96D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB2796C0-6682-402B-BC5C-8C17CDC95E58} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8F3D4E6A-C1B7-4E69-B63D-4E055898767A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F233582F-C057-42EE-A34C-76E110E90AD5}
+	EndGlobalSection
+EndGlobal
